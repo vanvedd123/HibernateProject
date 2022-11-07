@@ -13,7 +13,7 @@ public class Controller {
 	
 OperationService op =new OperationServiceImpl();
 
-System.out.println("============Application Started=============================");
+System.out.println("============Application Started====================");
 while(true) {
 	
 	System.out.println("1.addPersonWithAdharCard");
@@ -25,8 +25,8 @@ while(true) {
 	System.out.println("7.getAllAdharDatawithPersonData");
 	System.out.println("8.getSingleAdharDatawithPerson");
 	System.out.println("9.updatePersonUsingAdharData");
-	
 	System.out.println("10.updateAdharData");
+	
 	
 	int ch=sc.nextInt();
 	
